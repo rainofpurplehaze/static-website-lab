@@ -18,7 +18,8 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **1. Create a new resource group** 
 
- <img width="468" height="307" alt="Picture1" src="https://github.com/user-attachments/assets/b6918bd5-ce12-4b14-8583-86e09b4acf60" />
+<img width="468" height="322" alt="Create a new resource group" src="https://github.com/user-attachments/assets/87e7b894-5034-4f47-b29b-88c7e378c863" />
+
 
 - In the Azure portal, go to **Resource groups** and select **Create**.
 - Confirm the correct **subscription** is selected.
@@ -29,9 +30,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**2. Confirm the resource group was created** [1:29](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=89)
+**2. Confirm the resource group was created** 
 
-![generated-image-at-00:01:29](https://loom.com/i/70f994e14a75417f8fffaa2425e6d770?workflows_screenshot=true)
+<img width="468" height="322" alt="Confirm the resource group was created" src="https://github.com/user-attachments/assets/bb4ea3b9-7da3-4a41-a5d4-58ba54032bfa" />
+
 
 - Return to the Azure home page.
 - Open **Resource groups** and verify the new resource group appears in the list.
@@ -39,9 +41,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**3. Create a storage account inside the resource group** [1:56](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=116)
+**3. Create a storage account inside the resource group** 
 
-![generated-image-at-00:01:56](https://loom.com/i/4d0b2ea5c0e8445a9b80fbade5f73b60?workflows_screenshot=true)
+<img width="468" height="322" alt="Create as storage account" src="https://github.com/user-attachments/assets/83fe22a1-cadf-4c1a-a289-86cf25eec26b" />
+
 
 - From the Azure home page, open **Storage accounts** and select **Create**.
 - Confirm the **subscription** is correct.
@@ -56,18 +59,19 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**4. Wait for the storage account deployment to complete** [3:30](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=210)
+**4. Wait for the storage account deployment to complete** 
 
-![generated-image-at-00:03:30](https://loom.com/i/2e42fdec30364e36bf7003e8503ebde1?workflows_screenshot=true)
+<img width="468" height="322" alt="Wait for the storage account" src="https://github.com/user-attachments/assets/c0b8b65a-c8a8-46eb-b4b7-2af94a90ddf9" />
 
 - Monitor the deployment status until it shows completion.
 - Once deployment finishes, open the storage account resource to continue configuration.
 
  
 
-**5. Enable static website hosting** [3:53](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=233)
+**5. Enable static website hosting** 
 
-![generated-image-at-00:03:53](https://loom.com/i/43b95f6c14d94d1fbc8a3b209e241c63?workflows_screenshot=true)
+<img width="468" height="322" alt="EnableStatichost" src="https://github.com/user-attachments/assets/0b75db6d-9369-44e6-8e84-19f13c730c6b" />
+
 
 - In the storage account, go to **Data management** and select **Static website**.
 - Change the static website setting from **Disabled** to **Enabled**.
@@ -77,9 +81,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**6. Record the generated website endpoint and container** [4:43](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=283)
+**6. Record the generated website endpoint and container** 
 
-![generated-image-at-00:04:43](https://loom.com/i/754bf51b9f854d369ee9afec016b8e74?workflows_screenshot=true)
+<img width="468" height="322" alt="Recordthegeneratedwebsite" src="https://github.com/user-attachments/assets/319bc88f-e89f-4d4c-b0a8-169369f424e0" />
+
 
 - After saving, note that Azure creates the `$web` container automatically.
 - Record the **primary endpoint** and **secondary endpoint** shown by Azure.
@@ -87,9 +92,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**7. Upload the website file to the $web container** [5:11](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=311)
+**7. Upload the website file to the $web container** 
 
-![generated-image-at-00:05:11](https://loom.com/i/3d1ec90f225c431f864edb7b8593a811?workflows_screenshot=true)
+<img width="886" height="610" alt="Image 6-19-26 at 6 43 PM" src="https://github.com/user-attachments/assets/a65002b6-9453-4d8e-a8e1-7ba16e7cf686" />
+
 
 - Go to **Data storage** and select **Containers**.
 - Open the `$web` container.
@@ -100,9 +106,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**8. Test the static website in a browser** [6:29](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=389)
+**8. Test the static website in a browser** 
 
-![generated-image-at-00:06:29](https://loom.com/i/4458a983c4904e408fed0a29aead78bc?workflows_screenshot=true)
+<img width="468" height="322" alt="Websiteworks" src="https://github.com/user-attachments/assets/434ec327-b366-424a-a18c-057cbd0a53f0" />
+
 
 - Copy the **primary endpoint** from the static website settings.
 - Open a new browser tab and paste the endpoint into the address bar.
@@ -111,9 +118,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**9. Delete the resource group and associated resources** [7:18](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=438)
+**9. Delete the resource group and associated resources** 
 
-![generated-image-at-00:07:18](https://loom.com/i/2c8b56bf1b6e43c7bb8c66d358b478dd?workflows_screenshot=true)
+<img width="877" height="609" alt="Image 6-19-26 at 6 50 PM" src="https://github.com/user-attachments/assets/93353dcf-4117-4601-a607-95097219174f" />
+
 
 - After confirming the website works, return to the Azure home page.
 - Open **Resource groups** and select the resource group created earlier.
@@ -124,9 +132,10 @@ This explains how to create a static website in Microsoft Azure using a resource
 
  
 
-**10. Verify cleanup is complete** [8:53](https://loom.com/share/ba355bd8c43941f0b486e1138aa426cf?t=533)
+**10. Verify cleanup is complete** 
 
-![generated-image-at-00:08:53](https://loom.com/i/930e0cac60734e2ab7e335196496f6ab?workflows_screenshot=true)
+<img width="869" height="603" alt="Screenshot 2026-06-19 at 6 51 16 PM" src="https://github.com/user-attachments/assets/ce4ffb96-8056-4fee-9bf3-7cca5c086187" />
+
 
 - Refresh the Azure portal after a few minutes.
 - Confirm the storage account is gone.
@@ -135,7 +144,6 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 ### Cautionary Notes
 
-- **Be careful when deleting the resource group:** this removes all resources inside it, including the storage account and static website configuration.
 - **Double-check the subscription and region** before creating resources to avoid placing them in the wrong environment.
 - **Use the exact resource group name** when confirming deletion, or Azure will not proceed.
 - **Remember that cloud resources can incur charges** if left running, even if they are no longer actively used.
