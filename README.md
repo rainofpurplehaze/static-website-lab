@@ -9,16 +9,16 @@ https://www.loom.com/share/ba355bd8c43941f0b486e1138aa426cf
 
 This explains how to create a static website in Microsoft Azure using a resource group and storage account, upload the website files, verify the site through the generated endpoint, and then clean up all resources to avoid unnecessary charges.
 
+<img width="2720" height="2480" alt="azure_static_website_architecture_v2" src="https://github.com/user-attachments/assets/16535243-642a-4eef-9f40-886b0056e017" />
+
+
 ### Key Steps
 
- <img width="2720" height="2480" alt="azure_static_website_architecture" src="https://github.com/user-attachments/assets/f5b75094-5f80-480a-b744-24b34243fdeb" />
 
 
 **1. Create a new resource group** 
 
-
- 
-![generated-image-at-00:00:20](https://loom.com/i/1d0eeeb215c6468da83a420c44974ff0?workflows_screenshot=true)
+ <img width="468" height="307" alt="Picture1" src="https://github.com/user-attachments/assets/b6918bd5-ce12-4b14-8583-86e09b4acf60" />
 
 - In the Azure portal, go to **Resource groups** and select **Create**.
 - Confirm the correct **subscription** is selected.
