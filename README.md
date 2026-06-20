@@ -61,7 +61,8 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **4. Wait for the storage account deployment to complete** 
 
-<img width="468" height="322" alt="Wait for the storage account" src="https://github.com/user-attachments/assets/c0b8b65a-c8a8-46eb-b4b7-2af94a90ddf9" />
+<img width="874" height="607" alt="Image 6-19-26 at 7 12 PM" src="https://github.com/user-attachments/assets/c6edab94-baf3-4cd5-8d00-c43bee5edff6" />
+
 
 - Monitor the deployment status until it shows completion.
 - Once deployment finishes, open the storage account resource to continue configuration.
@@ -70,8 +71,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **5. Enable static website hosting** 
 
-<img width="468" height="322" alt="EnableStatichost" src="https://github.com/user-attachments/assets/0b75db6d-9369-44e6-8e84-19f13c730c6b" />
-
+<img width="861" height="603" alt="Image 6-19-26 at 7 15 PM" src="https://github.com/user-attachments/assets/39874593-e1c0-4db9-bbdf-63c4e8a6c611" />
 
 - In the storage account, go to **Data management** and select **Static website**.
 - Change the static website setting from **Disabled** to **Enabled**.
@@ -83,8 +83,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **6. Record the generated website endpoint and container** 
 
-<img width="468" height="322" alt="Recordthegeneratedwebsite" src="https://github.com/user-attachments/assets/319bc88f-e89f-4d4c-b0a8-169369f424e0" />
-
+<img width="871" height="600" alt="Screenshot 2026-06-19 at 7 16 35 PM" src="https://github.com/user-attachments/assets/062ee380-1c92-41bd-8c84-ee413780044b" />
 
 - After saving, note that Azure creates the `$web` container automatically.
 - Record the **primary endpoint** and **secondary endpoint** shown by Azure.
@@ -108,8 +107,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **8. Test the static website in a browser** 
 
-<img width="468" height="322" alt="Websiteworks" src="https://github.com/user-attachments/assets/434ec327-b366-424a-a18c-057cbd0a53f0" />
-
+<img width="873" height="602" alt="Screenshot 2026-06-19 at 7 19 36 PM" src="https://github.com/user-attachments/assets/43918d57-8799-4eca-93cf-5f4c78989a1a" />
 
 - Copy the **primary endpoint** from the static website settings.
 - Open a new browser tab and paste the endpoint into the address bar.
