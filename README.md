@@ -18,7 +18,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **1. Create a new resource group** 
 
-<img width="468" height="322" alt="Create a new resource group" src="https://github.com/user-attachments/assets/87e7b894-5034-4f47-b29b-88c7e378c863" />
+<img width="866" height="606" alt="Image 6-19-26 at 7 05 PM" src="https://github.com/user-attachments/assets/01fc4db6-800f-4d9c-a0a7-65fe1e94243d" />
 
 
 - In the Azure portal, go to **Resource groups** and select **Create**.
