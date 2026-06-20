@@ -32,7 +32,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **2. Confirm the resource group was created** 
 
-<img width="468" height="322" alt="Confirm the resource group was created" src="https://github.com/user-attachments/assets/bb4ea3b9-7da3-4a41-a5d4-58ba54032bfa" />
+<img width="872" height="608" alt="Screenshot 2026-06-19 at 7 07 34 PM" src="https://github.com/user-attachments/assets/290cc76b-50d2-4088-b475-f3634a0de21c" />
 
 
 - Return to the Azure home page.
@@ -43,7 +43,7 @@ This explains how to create a static website in Microsoft Azure using a resource
 
 **3. Create a storage account inside the resource group** 
 
-<img width="468" height="322" alt="Create as storage account" src="https://github.com/user-attachments/assets/83fe22a1-cadf-4c1a-a289-86cf25eec26b" />
+<img width="872" height="603" alt="Screenshot 2026-06-19 at 7 08 24 PM" src="https://github.com/user-attachments/assets/5b488fda-20c9-4590-9835-8188b970a42a" />
 
 
 - From the Azure home page, open **Storage accounts** and select **Create**.
